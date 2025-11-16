@@ -7,7 +7,7 @@
 [![Version](https://img.shields.io/badge/version-0.0.1-orange.svg)](https://github.com/MarcoGigante/pytermstructure/releases)
 [![Status](https://img.shields.io/badge/status-beta-yellow.svg)](https://github.com/MarcoGigante/pytermstructure)
 
-Inspired by **Damir Filipović'"'"'s "Interest Rate Models"**  
+Inspired by **Damir Filipović's "Interest Rate Models"**  
 École Polytechnique Fédérale de Lausanne (EPFL)  
 [Course Link](https://www.coursera.org/learn/interest-rate-models)
 
