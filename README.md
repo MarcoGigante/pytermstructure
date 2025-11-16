@@ -20,14 +20,7 @@ Inspired by **Damir Filipović'"'"'s "Interest Rate Models"**
 **Accuracy**: Results may deviate by **±15 basis points** from reference values due to:
 - Simplified interpolation methods
 - Approximations in long-term swap pricing
-- Day-count convention simplifications
-
-### Validation Results (Filipović Quiz)
-
-| Method | Test Case | Result | Target | Deviation |
-|--------|-----------|--------|--------|-----------|
-| Bootstrap | 30Y forward rate | 2.69% | 2.56% | +13 bps |
-| Lorimier | 6Y Swiss yield | -0.44% | -0.41% | -3 bps |
+- Day-count convention simplifications|
 
 **Recommendation**: Use for **educational purposes, research, and prototyping**. For production systems requiring high precision, consider [QuantLib](https://www.quantlib.org/) or [FinancePy](https://github.com/domokane/FinancePy).
 
