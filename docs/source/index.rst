@@ -5,7 +5,7 @@
 
 Version: 0.0.1 (Beta)
 
-By **Marco Gigante** | Inspired by Damir Filipović'"'"'s "Interest Rate Models" (EPFL)
+By **Marco Gigante** | Inspired by Damir Filipović's "Interest Rate Models" (EPFL)
 
 .. note::
    This is an **educational implementation** with ±15 basis points accuracy.
