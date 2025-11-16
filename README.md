@@ -260,3 +260,4 @@ Inspired by Prof. Damir Filipović'"'"'s course at EPFL.
 
 - **Documentation**: `pts.help()`
 - **Issues**: [GitHub Issues](https://github.com/MarcoGigante/pytermstructure/issues)
+- **Documentation**: [pytermstructure.readthedocs.io](https://pytermstructure.readthedocs.io/) 
