@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pytermstructure"
-version = "0.0.1"
+version = "0.1.0"
 authors = [{name = "Marco Gigante"}]
 description = "Educational Python library for interest rate term structure estimation"
 readme = "README.md"
@@ -12,8 +12,9 @@ requires-python = ">=3.8"
 keywords = ["finance", "interest-rates", "term-structure", "yield-curve", "quantitative-finance"]
 license = {text = "GPL-3.0-or-later"}
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
     "Intended Audience :: Financial and Insurance Industry",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Programming Language :: Python :: 3",
@@ -28,6 +29,7 @@ classifiers = [
 dependencies = [
     "numpy>=1.20.0",
     "scipy>=1.7.0",
+    "python-dateutil>=2.8.0",
 ]
 
 [project.optional-dependencies]
@@ -47,6 +49,7 @@ Homepage = "https://github.com/MarcoGigante/pytermstructure"
 Repository = "https://github.com/MarcoGigante/pytermstructure"
 Issues = "https://github.com/MarcoGigante/pytermstructure/issues"
 Documentation = "https://pytermstructure.readthedocs.io"
+Changelog = "https://github.com/MarcoGigante/pytermstructure/blob/main/CHANGELOG.md"
 
 [tool.setuptools]
 packages = ["pytermstructure"]

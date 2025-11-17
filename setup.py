@@ -2,7 +2,7 @@
 
 setup(
     name="pytermstructure",
-    version="0.0.1",
+    version="0.1.0",
     author="Marco Gigante",
     description="Educational Python library for interest rate term structure estimation",
     long_description=open("README.md", encoding="utf-8").read(),
@@ -12,13 +12,15 @@ setup(
         "Bug Tracker": "https://github.com/MarcoGigante/pytermstructure/issues",
         "Documentation": "https://pytermstructure.readthedocs.io",
         "Source Code": "https://github.com/MarcoGigante/pytermstructure",
+        "Changelog": "https://github.com/MarcoGigante/pytermstructure/blob/main/CHANGELOG.md",
     },
     license="GPL-3.0-or-later",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Education",
+        "Intended Audience :: Science/Research",
         "Intended Audience :: Financial and Insurance Industry",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Programming Language :: Python :: 3",
@@ -34,6 +36,7 @@ setup(
     install_requires=[
         "numpy>=1.20.0",
         "scipy>=1.7.0",
+        "python-dateutil>=2.8.0",
     ],
     extras_require={
         "dev": [
@@ -47,5 +50,5 @@ setup(
             "sphinx-rtd-theme>=1.0",
         ],
     },
-    keywords="finance interest-rates term-structure yield-curve quantitative-finance",
+    keywords="finance interest-rates term-structure yield-curve quantitative-finance bootstrap lorimier",
 )
