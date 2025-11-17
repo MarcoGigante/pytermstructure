@@ -212,20 +212,6 @@ License: GPLv3
 
 ***
 
-## Validation Results
-
-v0.1.0 has been validated using academic benchmark data:
-
-| Test Case | Result | Target | Deviation |
-|-----------|--------|--------|-----------|
-| Bootstrap 30Y forward rate | 2.56% | 2.56% | 0.00 bps |
-| Bootstrap 30Y discount | 0.483144 | 0.483194 | 0.50 bps |
-| Lorimier 6Y Swiss yield | -0.44% | -0.41% | 3.0 bps |
-
-Accuracy improvement: ~13 bps → <1 bps (v0.0.1 → v0.1.0)
-
-***
-
 ## Running Examples
 
 ```bash
