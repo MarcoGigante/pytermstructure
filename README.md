@@ -2,8 +2,10 @@
 
 **Educational Python library for interest rate term structure estimation**
 
-[![License: GPL v3](https://img.shields.
-[![Python 3.8+](https://img.shields.io **Damir Filipović's "Interest Rate Models"**  
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+Inspired by **Damir Filipović's "Interest Rate Models"**  
 École Polytechnique Fédérale de Lausanne (EPFL)  
 [Course Link](https://www.coursera.org/learn/interest-rate-models)
 
